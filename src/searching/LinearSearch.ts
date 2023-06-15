@@ -2,7 +2,7 @@ type inputParam = string | number | any
 
 export class LinearSearch {
 
-    private input: inputParam[];
+    private readonly input: inputParam[];
     constructor(input: inputParam[]) {
         this.input = input;
     }
