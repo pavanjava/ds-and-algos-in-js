@@ -6,7 +6,7 @@
   "author": "<manthapavankumar11@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev --respawn ./src/index.ts"
+    "start:dev": "ts-node-dev --respawn ./src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^20.3.1",
